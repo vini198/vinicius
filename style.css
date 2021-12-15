@@ -1,0 +1,122 @@
+{
+    margem :  0 ;
+    preenchimento :  0 ;
+    dimensionamento da caixa : caixa de borda;
+    estilo de lista : nenhum;
+}
+
+corpo ,  html {
+    largura :  100 % ;
+    altura :  100 % ;
+    cor de fundo :  # EEE ;
+    família da fonte :  'Roboto' , Arial , Helvetica , sans-serif;
+    tamanho da fonte :  16 px ;
+
+    display : flex;
+    justificar-conteúdo : centro;
+    alinhar-itens : centro;
+    flex-wrap : wrap;
+}
+
+img { largura máxima :  100 %  ! importante ;}
+
+h1 {
+    peso da fonte : negrito;
+    tamanho da fonte :  2,5 em ;
+    altura da linha :  1 em ;
+    margem :  15 px auto;
+}
+
+h1 :: após {
+    conteúdo :  "" ;
+    display : bloco;
+    largura :  100 % ;
+    altura :  5 px ;
+    cor de fundo :  # 000 ;
+    margem :  2 px  0  15 px  0 ;
+}
+
+span { font-size :  1,5 em ;}
+
+a { decoração de texto : nenhum; cor :  # 000 }
+
+p {
+    tamanho da fonte :  1,25 em ;
+    altura da linha :  1,4 em ;
+}
+
+p  +  p { margem :  15 px  0 ;}
+
+. container {
+    largura :  1100 px ;
+    preenchimento :  15 px ;
+    display : flex;
+    justificar-conteúdo : centro;
+    alinhar-itens : centro;
+    direção flexível : coluna;
+
+    cor de fundo :  # FFF ;
+    sombra da caixa :  15 px  15 px  15 px  0 px  rgba ( 0 ,  0 ,  0 ,  .1 );
+    raio da borda :  5 px ;
+}
+
+main {
+    largura :  100 % ;
+    altura : automático;
+    margem :  0 automático;
+}
+
+artigo {
+    largura :  100 % ;
+    display : flex;
+    justificar-conteúdo : centro;
+    alinhar-itens : centro;
+    flex-wrap : wrap;
+}
+
+seção . foto-social {
+    flex :  1  1  100 px ;
+}
+
+seção . texto {
+    flex :  1  1  400 px ;
+}
+
+seção  +  seção { margem esquerda :  15 px ;}
+
+. foto {
+    largura :  300 px ;
+    altura :  300 px ;
+    margem :  0 automático;
+    raio da borda :  50 % ;
+}
+
+. foto  img {
+    largura :  300 px ;
+    altura :  300 px ;
+    margem :  0 automático;
+    raio da borda :  50 % ;
+}
+
+ul . social {
+    largura :  100 % ;
+    altura : automático;
+    margem superior :  15 px ;
+    display : flex;
+    justificar-conteúdo : centro;
+    alinhar-itens : centro;
+}
+
+ul . li social  {
+    flex :  1  1  35 px ;
+    margem :  5 px ;
+}
+
+ul . social  li  a {
+    alinhamento de texto : centro;
+    display : bloco;
+    preenchimento :  5 px ;
+    transição : all .5 s easy-in-out;
+}
+
+ul . social  li  a : hover { opacidade :  0,5 ;}
